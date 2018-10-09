@@ -14,6 +14,9 @@ import redis.clients.jedis.JedisCluster;
 
 @Configuration
 public class ClusterConfig {
+	public static void main(String[] args) {
+		System.out.println("lglgllglglglg");
+	}
 	//利用属性读取配置文件数据
 	@Value("${spring.redis.cluster.nodes}")
 	private String nodes;
